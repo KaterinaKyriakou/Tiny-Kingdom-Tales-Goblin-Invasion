@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class DialogTrigger : MonoBehaviour
 {
-    //[Header("Visual Cue")]
-    //[SerializeField] private GameObject visualCue;
-
     [Header("Ink JSON")]
     [SerializeField] private TextAsset inkJSON;
 
@@ -15,7 +12,6 @@ public class DialogTrigger : MonoBehaviour
 
     [Header("Panel")]
     [SerializeField] private GameObject Panel;
-    // [SerializeField] private string diplayNameText;
 
     private bool playerInRange;
     private bool DialogPlaying = false;
@@ -32,8 +28,6 @@ public class DialogTrigger : MonoBehaviour
     private void Awake()
     {
         playerInRange = false;
-        //visualCue.SetActive(false);
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
@@ -42,7 +36,6 @@ public class DialogTrigger : MonoBehaviour
         {
             playerInRange = true;
             DialogPlaying = true;
-            //visualCue.SetActive(true);
         }
     }
 
@@ -52,7 +45,6 @@ public class DialogTrigger : MonoBehaviour
         {
             playerInRange = false;
             Panel.SetActive(false);
-            //visualCue.SetActive(false);
         }
     }
 }
