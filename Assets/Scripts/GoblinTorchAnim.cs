@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GoblinTorchAnim : MonoBehaviour
 {
-    private AudioManager audioManager;
+    //private AudioManager audioManager;
     private HealthManager healthMan;
     private Animator animator;
     private Vector3 previousPosition;
@@ -19,7 +19,7 @@ public class GoblinTorchAnim : MonoBehaviour
 
     void Start()
     {
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        //audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         animator = GetComponent<Animator>();
         previousPosition = transform.position;
         currentWaitTime = waitToHurt;
@@ -45,7 +45,7 @@ public class GoblinTorchAnim : MonoBehaviour
             else if (!attackInitiated)
             {
                 animator.SetBool("Attacking", true);
-                audioManager.PlayGoblinSFX(audioManager.GoblinAttack);
+                //audioManager.PlayGoblinSFX(audioManager.GoblinAttack);
                 attackInitiated = true;
                 Invoke("ResetAttack", 0.5f); //calls reset attack after animation so time should match the animation
             }

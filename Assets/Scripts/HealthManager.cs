@@ -47,6 +47,7 @@ public class HealthManager : MonoBehaviour
     public void HurtPlayer(int damageToGive)
     {
         currentHealth -= damageToGive;
+        audioManager.PlayGoblinSFX(audioManager.GoblinAttack);
         flashActive = true;
         flashCounter = flashLength;
         FindObjectOfType<UIManager>().UpdateHealthBar();

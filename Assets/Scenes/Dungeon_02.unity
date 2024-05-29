@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 420991764}
-  speed: 1
+  speed: 1.1
   distanceBetween: 3
 --- !u!114 &108682623
 MonoBehaviour:
@@ -1866,7 +1866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 420991764}
-  speed: 1
+  speed: 1.1
   distanceBetween: 3
 --- !u!114 &176207696
 MonoBehaviour:
@@ -2404,7 +2404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 420991764}
-  speed: 1
+  speed: 1.1
   distanceBetween: 3
 --- !u!114 &224499551
 MonoBehaviour:
@@ -3433,7 +3433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 420991764}
-  speed: 1
+  speed: 1.1
   distanceBetween: 3
 --- !u!114 &329426612
 MonoBehaviour:
@@ -15364,6 +15364,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
+      propertyPath: speed
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 963672632}
@@ -16111,6 +16115,10 @@ PrefabInstance:
     - target: {fileID: 1238784036963847568, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
+      propertyPath: speed
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: player
@@ -17336,7 +17344,7 @@ Tilemap:
       - {fileID: 1412424614, guid: 22ca965c38c3a594fb8acc103c003d4c, type: 3}
       - {fileID: 1289822179, guid: 22ca965c38c3a594fb8acc103c003d4c, type: 3}
       - {fileID: -1558988922, guid: 22ca965c38c3a594fb8acc103c003d4c, type: 3}
-      m_AnimationSpeed: 7.0000005
+      m_AnimationSpeed: 7
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 6, y: -31, z: 0}
@@ -17441,7 +17449,7 @@ Tilemap:
       - {fileID: 1747713277, guid: 22ca965c38c3a594fb8acc103c003d4c, type: 3}
       - {fileID: -789897364, guid: 22ca965c38c3a594fb8acc103c003d4c, type: 3}
       - {fileID: -1809499303, guid: 22ca965c38c3a594fb8acc103c003d4c, type: 3}
-      m_AnimationSpeed: 7
+      m_AnimationSpeed: 7.0000005
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -17792,7 +17800,7 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
   m_Intensity: 0.01
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -18828,7 +18836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 420991764}
-  speed: 1
+  speed: 1.1
   distanceBetween: 3
 --- !u!114 &1258894743
 MonoBehaviour:
@@ -19257,6 +19265,10 @@ PrefabInstance:
     - target: {fileID: 1238784036963847568, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
+      propertyPath: speed
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: player
@@ -20867,6 +20879,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
+      propertyPath: speed
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 963672632}
@@ -21270,6 +21286,10 @@ PrefabInstance:
     - target: {fileID: 1238784036963847568, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
+      propertyPath: speed
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: player
@@ -21726,6 +21746,10 @@ PrefabInstance:
     - target: {fileID: 1238784036963847568, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
+      propertyPath: speed
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: player
@@ -22359,7 +22383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 420991764}
-  speed: 1
+  speed: 1.1
   distanceBetween: 3
 --- !u!114 &1688395541
 MonoBehaviour:
@@ -22760,6 +22784,10 @@ PrefabInstance:
     - target: {fileID: 1238784036963847568, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
+      propertyPath: speed
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: player
@@ -23419,6 +23447,10 @@ PrefabInstance:
     - target: {fileID: 1238784036963847568, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
+      propertyPath: speed
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: player
@@ -24557,6 +24589,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
+      propertyPath: speed
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 963672632}
@@ -25049,6 +25085,10 @@ PrefabInstance:
     - target: {fileID: 1238784036963847568, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
+      propertyPath: speed
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: player
@@ -30202,6 +30242,10 @@ PrefabInstance:
     - target: {fileID: 1238784036963847568, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
+      propertyPath: speed
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 1676376966610701798, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
       propertyPath: player
