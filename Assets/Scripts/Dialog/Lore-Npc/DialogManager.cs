@@ -2,7 +2,6 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using Ink.Runtime;
-using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -16,6 +15,7 @@ public class DialogueManager : MonoBehaviour
     private Story currentStory;
     public bool dialogueIsPlaying;
     private Coroutine displayLineCoroutine;
+    private bool canContinueToNextLine = true;
 
     private void Awake()
     {
@@ -41,6 +41,14 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
     }
 
+    private void Update()
+    {
+        if (dialogueIsPlaying && Input.GetKeyDown(KeyCode.E) && canContinueToNextLine)
+        {
+            ContinueStory();
+        }
+    }
+
     public void EnterDialogueMode(TextAsset inkJSON)
     {
         currentStory = new Story(inkJSON.text);
@@ -49,17 +57,22 @@ public class DialogueManager : MonoBehaviour
         ContinueStory();
     }
 
-    public void ExitDialoguMode()
+    public void ExitDialogueMode()
     {
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
+        if (displayLineCoroutine != null)
+        {
+            StopCoroutine(displayLineCoroutine);
+        }
     }
 
     public void ContinueStory()
     {
         if (currentStory.canContinue)
         {
+            canContinueToNextLine = false;
             if (displayLineCoroutine != null)
             {
                 StopCoroutine(displayLineCoroutine);
@@ -68,7 +81,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            ExitDialoguMode();
+            ExitDialogueMode();
         }
     }
 
@@ -80,5 +93,6 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
+        canContinueToNextLine = true;
     }
 }
