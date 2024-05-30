@@ -14,15 +14,11 @@ public class EnemyHealthManager : MonoBehaviour
     private float flashCounter = 0f;
     private SpriteRenderer enemySprite;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         enemySprite = GetComponent<SpriteRenderer>();
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (flashActive)

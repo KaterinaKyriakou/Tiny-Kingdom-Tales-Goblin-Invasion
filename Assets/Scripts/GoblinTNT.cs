@@ -29,7 +29,7 @@ public class GoblinTNT : MonoBehaviour
     void Update()
     {
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-        //Direction Code
+        //Direction
             if (player.position.x < transform.position.x)
             {
                 transform.localScale = new Vector3(-1f, 1f, 1f);
@@ -38,7 +38,7 @@ public class GoblinTNT : MonoBehaviour
             {
                 transform.localScale = new Vector3(1f, 1f, 1f);
             }
-        //
+        
 
         if (distanceToPlayer <= chaseRadius)
         {

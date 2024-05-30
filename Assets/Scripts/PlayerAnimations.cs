@@ -22,10 +22,9 @@ public class PlayerAnimations : MonoBehaviour
 
     private void Update()
     {
-        //Check if game is paused
         if (PauseMenu.isPaused)
         {
-            return; // Do not process any input if the game is paused
+            return;
         }
 
         if (isAttacking)

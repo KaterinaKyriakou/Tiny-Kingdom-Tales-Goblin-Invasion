@@ -8,14 +8,14 @@ public class AIchase : MonoBehaviour
     public float speed;
     public float distanceBetween;
     private Animator animation;
-    private Vector3 initialPosition; // Variable to store the object's initial position
-    private bool isReturning = false; // Flag to indicate if the object is returning to its initial position
-    private float returnTimer = 0f; // Timer to track the time elapsed since the player moved out of the objects range
+    private Vector3 initialPosition; // Store initial position
+    private bool isReturning = false; // Flag for returning to the initial position
+    private float returnTimer = 0f; // Timer to track the time since the player moved out of the objects range
 
     private void Start()
     {
         animation = GetComponent<Animator>();
-        initialPosition = transform.position; // Store the initial position when the object is instantiated
+        initialPosition = transform.position;
     }
 
     private void Update()

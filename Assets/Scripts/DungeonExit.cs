@@ -13,7 +13,6 @@ public class DungeonExit : MonoBehaviour
             PlayerPrefs.SetInt(dungeonCompletedKey, 1);
             PlayerPrefs.Save();
 
-            // Display
             Debug.Log("Dungeon0" + dungeonNumber + " marked as completed.");
         }
     }

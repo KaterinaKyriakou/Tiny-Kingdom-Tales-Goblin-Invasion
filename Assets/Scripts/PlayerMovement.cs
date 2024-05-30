@@ -5,8 +5,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed;
     private Animator animator;
     private Rigidbody2D body;
-    private int facingDirection = 1; // 1 for right, -1 for left
-
     public DialogueManager dialogueManager;
 
     private void Awake()
@@ -33,12 +31,10 @@ public class PlayerMovement : MonoBehaviour
         if (moveHorizontal > 0.01f)
         {
             transform.localScale = new Vector3(1, transform.localScale.y, 1);
-            facingDirection = 1;
         }
         else if (moveHorizontal < -0.01f)
         {
             transform.localScale = new Vector3(-1, transform.localScale.y, 1);
-            facingDirection = -1;
         }
 
         animator.SetBool("Run", moveHorizontal != 0 || moveVertical != 0);

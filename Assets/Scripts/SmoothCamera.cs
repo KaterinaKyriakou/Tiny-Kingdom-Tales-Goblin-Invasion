@@ -9,14 +9,12 @@ public class SmoothCamera : MonoBehaviour
     public Vector2 MaxPos;
     public Vector2 MinPos;
 
-    // Start is called before the first frame update
     void Start()
     {
       transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
         
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
       if(transform.position != target.position){

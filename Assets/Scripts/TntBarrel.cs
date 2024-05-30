@@ -20,7 +20,6 @@ public class TntBarrel : MonoBehaviour
         InvokeRepeating("ToggleAnimation", 1.60f, 1.60f);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (isExploding) return;

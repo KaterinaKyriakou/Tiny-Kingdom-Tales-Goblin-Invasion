@@ -3,10 +3,10 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public Image healthBarImage; // assign main image
-    public Sprite[] healthBarSprites; // assign all the sprites
+    public Image healthBarImage; 
+    public Sprite[] healthBarSprites;
 
-    private HealthManager healthManager; // reference to healthmanager
+    private HealthManager healthManager;
 
     void Start()
     {

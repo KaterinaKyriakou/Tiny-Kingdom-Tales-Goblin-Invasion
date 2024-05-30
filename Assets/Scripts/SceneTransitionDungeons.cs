@@ -13,7 +13,7 @@ public class SceneTransitionDun : MonoBehaviour
     public int dungeonNumber; // Dungeon number for constructing the PlayerPrefs key
     public bool checkIsCleared = true; // enabling/disabling the isCleared logic
 
-    public GameObject visualCue; // Reference to the visual cue GameObject
+    public GameObject visualCue; // Reference to the visual cue
 
     private bool canChangeScene = false;
     private string dungeonCompletedKey; // The constructed PlayerPrefs key to check if the dungeon is cleared
