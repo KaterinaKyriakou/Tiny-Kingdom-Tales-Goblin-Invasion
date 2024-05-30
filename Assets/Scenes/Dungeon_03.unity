@@ -8229,6 +8229,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &234444513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234444505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 205934947}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!1001 &239902834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8426,6 +8444,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &245280159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245280151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 2104700385}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!1001 &246980240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8898,6 +8934,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1110519906}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1110519912}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!1001 &305326551
 PrefabInstance:
@@ -9052,7 +9091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2974248294460331625, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.58
+      value: 6.39
       objectReference: {fileID: 0}
     - target: {fileID: 2974248294460331625, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9126,6 +9165,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1552292973}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1552292979}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!1 &327667180 stripped
 GameObject:
@@ -9267,6 +9309,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &327667188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327667180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 748513668}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!1 &329107732
 GameObject:
   m_ObjectHideFlags: 0
@@ -11129,6 +11189,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &490709594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490709586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 1869901161}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!1 &499839603 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3389670902602352541, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
@@ -12154,6 +12232,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &694038211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694038203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 854341487}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!1001 &699240126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13220,7 +13316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2974248294460331625, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.34
+      value: -26.66
       objectReference: {fileID: 0}
     - target: {fileID: 2974248294460331625, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13290,6 +13386,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1936555854}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1936555860}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!1 &877595743 stripped
 GameObject:
@@ -13735,6 +13834,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 694038205}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 694038211}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!1 &946480828
 GameObject:
@@ -14360,6 +14462,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 490709588}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 490709594}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!1001 &1001069431
 PrefabInstance:
@@ -15204,6 +15309,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &1110519912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110519904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 1754150944}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!4 &1113362103 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9010167687938273180, guid: 2c816a343f7bd234a880e3e0483f82e2, type: 3}
@@ -16101,6 +16224,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 234444507}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 234444513}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!1001 &1297538441
 PrefabInstance:
@@ -16863,6 +16989,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 327667182}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 327667188}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!1 &1412057784
 GameObject:
@@ -17900,6 +18029,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &1552292979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552292971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 1563244221}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!1 &1557906497
 GameObject:
   m_ObjectHideFlags: 0
@@ -24880,6 +25027,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &1936555860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936555852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 1455825831}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!4 &1954457690 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2899537620312929940, guid: 9498d72b31c140d46b312dc715c6322a, type: 3}
@@ -25280,6 +25445,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 245280153}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 245280159}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!1 &2104700383
 GameObject:

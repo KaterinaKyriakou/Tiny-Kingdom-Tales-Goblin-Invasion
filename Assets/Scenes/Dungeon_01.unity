@@ -1224,6 +1224,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &192880909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192880898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 1065561365}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!1001 &235804981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2151,6 +2169,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 854908568}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 854908576}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!1 &469719181
 GameObject:
@@ -10026,6 +10047,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &854908576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854908566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 552478769}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!1 &865710491 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3389670902602352541, guid: 700f727b4dbe8a543be42ee2c1714191, type: 3}
@@ -15470,6 +15509,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1368830899}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1368830907}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!1 &1166198651
 GameObject:
@@ -16350,6 +16392,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &1368830907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368830897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 1371684242}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!1 &1371684240
 GameObject:
   m_ObjectHideFlags: 0
@@ -17625,6 +17685,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1884446970}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1884446978}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!4 &1614892556 stripped
 Transform:
@@ -19463,6 +19526,24 @@ MonoBehaviour:
   currentHealth: 60
   maxHealth: 60
   flashLenght: 0.5
+--- !u!114 &1884446978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884446968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc11c62bd6ae1f4d9102816cbce6e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 1717461810}
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minRadius: 0.7
+  maxRadius: 0.8
+  flickerSpeed: 0.11
 --- !u!1 &1887559512
 GameObject:
   m_ObjectHideFlags: 0
@@ -19716,6 +19797,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 192880900}
+    - targetCorrespondingSourceObject: {fileID: 1240286620351979481, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 192880909}
   m_SourcePrefab: {fileID: 100100000, guid: 7815591dca9c2ea46bfef4d75fe6c6b9, type: 3}
 --- !u!1001 &1915869903
 PrefabInstance:
